@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+  "category": "Uncategorised",
+  "creator": "SamVerschueren",
+  "name": "font-awesome",
+  "readme": "",
+  "enabled": true,
+  "defaultIcon": "icon.png",
+  "commands": [
+    {
+      "type": "scriptFilter",
+      "command": "fa",
+      "title": "Search for font-awesome icons",
+      "subtitle": "",
+      "scriptFilter": "node index.js \"{query}\"",
+      "runningSubtext": "Searching...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "clipboard",
+          "text": "{query}"
+        }
+      ]
+    }
+  ]
+}

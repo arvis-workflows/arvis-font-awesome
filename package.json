@@ -1,0 +1,48 @@
+{
+  "name": "arvis-font-awesome",
+  "version": "0.0.1",
+  "description": "arvis workflow to search for font-awesome icons",
+  "license": "MIT",
+  "repository": "SamVerschueren/arvis-font-awesome",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist",
+    "icons",
+    "arvis-workflow.json"
+  ],
+  "keywords": [
+    "arvis",
+    "workflow",
+    "fontawesome",
+    "font",
+    "awesome",
+    "fa",
+    "icon",
+    "iconfont"
+  ],
+  "dependencies": {
+    "arvish": ">=0.3.3",
+    "color": "^0.11.3"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
