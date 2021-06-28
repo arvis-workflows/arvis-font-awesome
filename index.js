@@ -21,7 +21,7 @@ arvish
 			'Content-Type': 'application/json',
 			Accept: 'application/json'
 		},
-		body: `{"requests":[{"indexName":"font_awesome","params":"query=${arvish.input}&page=0&facets=%5B%5D&tagFilters=&hitsPerPage=50"}]}`
+		body: {requests:[{indexName:"font_awesome",params:`query=${arvish.input}&page=0&facets=%5B%5D&tagFilters=&hitsPerPage=50`}]}
 	})
 	.then(data => {
 		const items = data.results[0].hits.map(x => {
