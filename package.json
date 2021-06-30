@@ -1,6 +1,6 @@
 {
   "name": "arvis-font-awesome",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "arvis workflow to search for font-awesome icons",
   "license": "MIT",
   "repository": "SamVerschueren/arvis-font-awesome",
@@ -35,7 +35,7 @@
     "iconfont"
   ],
   "dependencies": {
-    "arvish": ">=0.3.5",
+    "arvish": ">=0.3.6",
     "color": "^0.11.3"
   },
   "devDependencies": {
