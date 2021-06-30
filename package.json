@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava",
+    "test": "ava",
     "postinstall": "arvish-init",
     "preuninstall": "arvish-cleanup"
   },
@@ -39,7 +39,8 @@
     "color": "^0.11.3"
   },
   "devDependencies": {
-    "ava": "*",
+    "arvish-test": "0.0.1",
+    "ava": "^3.15.0",
     "xo": "*"
   },
   "xo": {

@@ -1,4 +1,4 @@
-# arvis-font-awesome
+# arvis-font-awesome [![BuildStatus](https://api.travis-ci.com/jopemachine/arvis-font-awesome.svg)](https://www.npmjs.com/package/arvis-font-awesome)
 
 > arvis workflow to search for [font-awesome](http://fontawesome.io/) icons
 
