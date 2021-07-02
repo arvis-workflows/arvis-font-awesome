@@ -6,6 +6,8 @@
   "readme": "",
   "enabled": true,
   "defaultIcon": "icon.png",
+  "webAddress": "https://github.com/jopemachine/arvis-font-awesome",
+  "description": "Arvis workflow to search for font-awesome icons",
   "commands": [
     {
       "type": "scriptFilter",
