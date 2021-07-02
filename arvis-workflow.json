@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "category": "Uncategorised",
   "creator": "SamVerschueren",
-  "name": "font-awesome",
+  "name": "arvis-font-awesome",
   "readme": "",
   "enabled": true,
   "defaultIcon": "icon.png",
