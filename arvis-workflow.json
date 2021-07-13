@@ -4,6 +4,7 @@
   "creator": "SamVerschueren",
   "name": "arvis-font-awesome",
   "readme": "",
+  "version": "0.0.10",
   "enabled": true,
   "defaultIcon": "icon.png",
   "webAddress": "https://github.com/jopemachine/arvis-font-awesome",
